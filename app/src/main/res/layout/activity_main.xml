@@ -20,14 +20,14 @@
 
     <Button
         android:id="@+id/btButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
         android:text="+"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/rvContacts"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.953"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintVertical_bias="0.816" />
 </androidx.constraintlayout.widget.ConstraintLayout>

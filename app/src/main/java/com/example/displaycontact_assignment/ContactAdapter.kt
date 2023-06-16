@@ -31,9 +31,6 @@ class ContactAdapter(var ContactList:List<Contacts>) : RecyclerView.Adapter<Cont
 
 
 
-
-
-
         Picasso
             .get()
             .load(currentContact.avatar)

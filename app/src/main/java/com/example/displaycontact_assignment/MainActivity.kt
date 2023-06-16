@@ -52,9 +52,29 @@ class MainActivity : AppCompatActivity() {
             "0756364352",
             "joy@gmail.com",
             "https://media.istockphoto.com/id/1388253782/photo/positive-successful-millennial-business-professional-man-head-shot-portrait.webp?b=1&s=170667a&w=0&k=20&c=KZM6TIhdaJAy28BA9sg0Sn-ZRd160F6HytdAKykza-s="
+
+        )
+        var contact5 = Contacts(
+            "Melisa",
+            "0756364352",
+            "melisa@gmail.com",
+            "https://media.istockphoto.com/id/1208585275/photo/profile-of-a-serene-young-woman.jpg?s=612x612&w=0&k=20&c=GU_NrBvXEiKL8GDe6MIVmx_M3xzwMKzjJ27RI0rHmw8="
+        )
+        var contact6 = Contacts(
+            "Annet",
+            "0756364352",
+            "annet@gmail.com",
+            "https://media.istockphoto.com/id/1381221247/photo/beautiful-afro-girl-with-curly-hairstyle.webp?b=1&s=170667a&w=0&k=20&c=0x91osZOkL8EfhTEEGNa2EeCGN2gdMTNULOsUFW_0i4="
         )
 
-        val contactList = listOf(contact1, contact2, contact3, contact4)
+        var contact7 = Contacts(
+            "Amakove",
+            "0756364352",
+            "amakove@gmail.com",
+            "https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM="
+
+        )
+            val contactList = listOf(contact1, contact2, contact3, contact4,contact5,contact6,contact7)
         val contactAdapter = ContactAdapter(contactList)
         binding.rvContacts.layoutManager = LinearLayoutManager(this)
         binding.rvContacts.adapter = contactAdapter
