@@ -6,5 +6,6 @@ data class Contacts(
     var displayName:String,
     var phoneNumber:String,
     var email:String,
+    var avatar:String
 
 )
